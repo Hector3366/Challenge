@@ -3,6 +3,7 @@
     font-family: 'Inter';
     font-size: 30px;
     line-height: 100%;
+
 }
 .logo{
     padding-top: 10px;
@@ -48,18 +49,18 @@ main{
 }
 
 .btn_desencriptar{
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
+    background: #23fc35;
+    border: 1px solid #23fc35;
     border-radius: 25px;
-    color: #0A3871;
+    color: white;
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
     width: 328px;
 }
 .btn_encriptar{
-    background-color: #0A3871;
-    border: 1px solid #0A3871;
+    background-color: #ec2424;
+    border: 1px solid #ec2424;
     border-radius: 25px;
     color: white;
     cursor: pointer;
