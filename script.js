@@ -41,7 +41,7 @@ function desencriptar(stringDesencriptado) {
 }
 
 function copiar() {
-
     mensaje.select();
     document.execCommand('copy');
+    alert("Texto Copiado")
 }

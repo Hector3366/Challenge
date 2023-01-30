@@ -21,24 +21,33 @@ main{
     text-transform: lowercase;
     padding: 10px;
     width: 670px;
-    border: none;
+    border: 1px solid #495057;
+    border-radius: 25px;
+
 }
+
 ::placeholder{
     color: #0A3871;
+    font-weight: bold;
 }
 .text_area:focus{
     outline: none;
 }
 .mensaje{
-    background: white;
     background-image: url("./img/Muñeco.png");
     background-repeat: no-repeat;
-    border: none;
+    border: 1px solid #495057;
+    border-radius: 25px;
     color: #0A3871;
     margin-left: 100px;
-    padding-left: 20px;
+    padding-bottom: 8px;
     position: fixed;
 }
+.mensaje::placeholder {
+    color: red;
+    text-align: center;
+    padding-top: 270px;
+  }
 .mensaje:focus{
     outline: none;
 }
@@ -57,6 +66,7 @@ main{
     height: 67px;
     margin-left: 30px;
     width: 328px;
+    font-weight: bold;
 }
 .btn_encriptar{
     background-color: #ec2424;
@@ -66,18 +76,21 @@ main{
     cursor: pointer;
     height: 67px;
     width: 328px;
+    font-weight: bold;
 }
 
 .copiar{
-    border:1px solid #0A3871;
+    border:1px solid #ecdf24;
     border-radius: 25px;
-    color: #0A3871;
+    background-color: #ecdf24;
+    color: white;
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
     margin-top: 402px;
     position: absolute;
     width: 336px;
+    font-weight: bold;
 }
 .informacion{
     color: #495057;
